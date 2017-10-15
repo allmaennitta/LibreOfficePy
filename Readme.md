@@ -1,9 +1,5 @@
 # About LibreOffice-Scripting
-
-## Preferred development strategy
-* Do your first steps in Basic, because IDE reduces complexity and
-  can support development
-* Try to get your head around UNO-Abstractions
+Here I collect my scripts to automate tasks in LibreOffice
 
 ## Sources
 * file:///E:/Data/System/Downloads/Makro_Kochbuch.pdf
