@@ -101,7 +101,7 @@ ENV/
 *.iml
 out
 gen
-core/__pycache__/
+draw/__pycache__/
 .idea/LibreOffice.iml
 .idea/dbnavigator.xml
 .idea/markdown-navigator.xml
