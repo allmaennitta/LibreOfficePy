@@ -3,14 +3,13 @@ organizational units:
 -
   type: body
   name: Executive Board
-  members:
+  sub:
   - John Doe
   - N.N.
 -
   type: executive role
   position: CEO
   name: John Doe
-  flag: temporary
   sub:
   -
     type: role
@@ -58,3 +57,5 @@ organizational units:
     type: role
     position: Chairman
     name: John Doe
+
+
