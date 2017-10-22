@@ -9,11 +9,10 @@
 * DataCenter (choose)
 * VPN, Virtual Private LAN (decide)
 
-# Finance
-* Accounting
-* Financial Statements
-* Funding
-* Tax
-* Forecast
-* Controlling
-* Budgeting
+# Production
+* Workstations (plan)
+* Stocklists (monitor)
+* Machines (monitor)
+* Maintenance (plan)
+* QA (monitor)
+* Staff (plan)

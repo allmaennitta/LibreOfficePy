@@ -1,0 +1,60 @@
+---
+organizational units:
+-
+  type: body
+  name: Executive Board
+  members:
+  - John Doe
+  - N.N.
+-
+  type: executive role
+  position: CEO
+  name: John Doe
+  flag: temporary
+  sub:
+  -
+    type: role
+    position: Consigliere
+    name: John Doe
+  -
+    type: department
+    name: Research & Development
+    sub:
+    -
+      type: position
+      position: Head
+      name: John Doe
+    -
+      type: role
+      position: Director
+      name: John Doe
+    -
+      type: team
+      name: Foo
+    -
+      type: team
+      name: Bar
+    -
+      type: note
+      content: |
+        Roles
+        - Chemist for Process Engineering
+        - Chartered Engineers, Mechanics
+        - Chartered Engineer, Thermodynamics
+        - CAD Constructors
+        - Research, Database Maintenance and Documentation
+        - EMSR Engineers
+        - Material- & Equipment-Order
+    -
+      type: position
+      position: Assisting Organizational Psychologist
+      name: John Doe
+      flag: freelance
+-
+  type: institution
+  name: Foo Bar Foundation
+  sub:
+  -
+    type: role
+    position: Chairman
+    name: John Doe
