@@ -1,15 +1,19 @@
 ---
-organizational units:
 -
   type: body
   name: Executive Board
   sub:
-  - John Doe
-  - N.N.
+  -
+    type: person
+    name: John Doe
+  -
+    type: person
+    name: N.N.
 -
-  type: executive role
+  type: role
   position: CEO
   name: John Doe
+  flags: ["executive"]
   sub:
   -
     type: role
@@ -19,10 +23,6 @@ organizational units:
     type: department
     name: Research & Development
     sub:
-    -
-      type: position
-      position: Head
-      name: John Doe
     -
       type: role
       position: Director
@@ -34,16 +34,11 @@ organizational units:
       type: team
       name: Bar
     -
-      type: note
-      content: |
-        Roles
-        - Chemist for Process Engineering
-        - Chartered Engineers, Mechanics
-        - Chartered Engineer, Thermodynamics
-        - CAD Constructors
-        - Research, Database Maintenance and Documentation
-        - EMSR Engineers
-        - Material- & Equipment-Order
+      type: profession
+      name: Chemist for Process Engineering
+    -
+      type: profession
+      name: CAD Constructors
     -
       type: position
       position: Assisting Organizational Psychologist

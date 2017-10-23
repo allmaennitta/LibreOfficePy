@@ -1,0 +1,42 @@
+---
+body:
+  props:
+  - name
+  subs:
+  - person
+  - role
+person:
+  props:
+  - name
+  presets:
+  - is_text
+role:
+  props:
+  - position
+  - name
+  flags:
+  - is_text
+  - executive
+department:
+  props:
+  - name
+  subs:
+  - role
+  - team
+  - profession
+profession:
+  props:
+  - name
+  presets:
+  - is_text
+team:
+  props:
+  - name
+  presets:
+  - is_text
+institution:
+  props:
+  - title
+  - name
+  subs:
+  - profession
